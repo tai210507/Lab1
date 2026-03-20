@@ -68,8 +68,8 @@ int main()
 {
     PhanSo ps1, ps2; 
     
-    nhapPhanSo(ps1); // Nhập phân số thứ nhất
-    nhapPhanSo(ps2); // Nhập phân số thứ hai
+    nhapPhanSo(ps1); 
+    nhapPhanSo(ps2); 
     
     // Gọi các hàm tính toán và in kết quả trực tiếp ra màn hình
     cout << "Tong: "; xuatPhanSo(tong(ps1, ps2));
